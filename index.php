@@ -19,7 +19,7 @@
 
 
 <header id="home" class="qt-header parallax-container scrollspy">
-<div class="parallax" data-start="width:100%;height:100%;top: 0%;left: 0%;" data-end="width:260%;height:260%;top:-80%;left:-80%;"><img src="images/galaxy-1.jpg" alt="background"></div>
+<div class="parallax" data-start="width:100%;height:100%;top: 0%;left: 0%;" data-end="width:260%;height:260%;top:-80%;left:-80%;"><img src="images/galaxy-1.jpg" alt="background" style="opacity: 0.5; "></div>
 <div class="qt-valign-wrapper">
 <div class="qt-valign">
 <div class="container center-align" data-50p-top="opacity:1;margin-top:0px" data-30p-top="opacity:1;" data-0p-top="opacity:0;margin-top:-700px">
@@ -69,19 +69,16 @@
 
 <div class="carousel qt-gridstackCarousel" data-vpadding="50" data-time_constant="500" data-dist="-30" data-shift="-20" data-padding="20" data-full_width="0" data-100p-top="opacity:0;" data-80p-top="opacity:0;" data-50p-top="opacity:1;" data-30p-top="opacity:1;" data-top-bottom="opacity:0;">
 <div class="carousel-item">
-<img src="images/album-8.jpg" width="300" height="300" alt="Album title">
-<h5>PULSATION Pt.2</h5>
-<a href="#modal1" class="btn modal-trigger" data-iframe="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/295471309&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"><span class="lnr lnr-music-note"></span></a>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245219014&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<h5>Cobra is animal </h5>
 </div>
 <div class="carousel-item">
-<img src="images/album-1.jpg" width="300" height="300" alt="Album title">
-<h5>PULSATION</h5>
-<a href="#modal1" class="btn modal-trigger" data-iframe="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251483780&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"><span class="lnr lnr-music-note"></span></a>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/251483780&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<h5>Pulsation</h5>
 </div>
 <div class="carousel-item">
-<img src="images/album-3.jpg" width="300" height="300" alt="Album title">
-<h5>Cobra Is Animals</h5>
-<a href="#modal1" class="btn modal-trigger" data-iframe="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245219014&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"><span class="lnr lnr-music-note"></span></a>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/295471309&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<h5>Pulsation pt.2</h5>
 </div>
 </div>
 
@@ -127,8 +124,6 @@
 <h4>Career</h4>
 One common flaw we've seen in many frameworks is a lack of support for truly responsive text. While elements on the page resize fluidly, text still resizes on a fixed basis. To ameliorate this problem, for text heavy pages, we've created a class that fluidly scales text size and line-height to optimize readability for the user. Line length stays between 45-80 characters and line height scales to be larger on smaller screens.
 To see Flow Text in action, slowly resize your browser and watch the size of this text body change! Use the button above to toggle off/on flow-text to see the difference!
-<h4>Collabs</h4>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla nibh, ultricies posuere elit ut, pretium varius arcu. Nulla congue velit vitae erat posuere, at malesuada ex imperdiet. In in cursus nisl, ac vehicula tellus. Sed elementum urna eu eros tempus, ac lacinia augue blandit. Suspendisse potenti. Nunc feugiat, purus at consectetur varius, nibh lacus fermentum lacus, ac semper turpis justo ullamcorper lectus. Donec suscipit, ligula ut consectetur vehicula, est purus hendrerit quam, non interdum augue est et urna. Morbi auctor elit id orci euismod, ac lacinia orci porttitor. Aenean gravida sapien mauris, eget gravida est viverra id. Nulla nulla lectus, faucibus vel ornare et, commodo sit amet lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eget dignissim dui, eget placerat dui. Maecenas malesuada, erat at tempus vehicula, urna purus consectetur eros, at varius orci ex et ligula.
 </div>
 </div>
 </div>
@@ -147,7 +142,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla nibh, u
 <div id="form" class="row">
 <form class="col s12" method="post" action="http://qantumthemes.xyz/sonikhtml/email_sender.php">
 <input type="hidden" name="antispam" value="x123">
-<h4 class="center-align">Get in touch!</h4>
 <div class="row">
 <div class="input-field col s6">
 <input name="first_name" id="first_name" type="text" class="validate">
@@ -168,12 +162,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla nibh, u
 <div class="input-field col s12">
 <textarea name="message" id="message" class="materialize-textarea" maxlength="300"></textarea>
 <label for="message">Message</label>
-</div>
-</div>
-<div class="row">
-<div class="input-field col s12">
-<input name="privacy" type="checkbox" id="privacy" value="1" />
-<label for="privacy">I read and accept the <a href="#" target="_blank">privacy terms</a>.</label>
 </div>
 </div>
 <div class="row">
